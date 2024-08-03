@@ -10,8 +10,8 @@ print(Twice_members.pop('Rose'))
 print('full band: ', *[item for item in Twice_members.items()], sep='\n')
 
 my_set = {'Rose', 'Rose', 'Rose', 1997, ("On the Ground", 2021)}
-print(f"My set: {my_set}")
+print("My set:", my_set)
 
 my_set.update({'rosie is roses', ("Hard to Love", 2022)})
 my_set.remove(1997)
-print(f"Modified set: {my_set}")
+print('Modified set:', my_set)
